@@ -1,0 +1,10 @@
+In this assignment, I completed two parts: creating a test mark report program and implementing foolproof input validation functions. 
+For Part 1, I focused on writing a program that calculates the average of student marks and prints a report that includes the class 
+average and its corresponding letter grade. This required writing functions to get the number of students, calculate the average of 
+their marks, and convert the average into a letter grade.
+For Part 2, I implemented several input validation functions (getInt, getIntMM, getDouble, and getDoubleMM). 
+These functions ensure that only valid integers or doubles are accepted, and they validate the input to fall within a specific range if needed.
+I reused the teacher’s method for input validation, using scanf() to read values and check for trailing characters to ensure the input is valid.
+While working on Part 2, I had some difficulties when trying to apply the teacher’s method from getInt() to the other functions, 
+especially for handling double inputs and maintaining proper input validation. However, with trial and error, I managed to adapt 
+the method successfully and learned how to handle different types of inputs effectively.
